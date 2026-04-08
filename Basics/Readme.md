@@ -68,3 +68,20 @@ int main() {
 3. **`<<`**: `<<` is the insertion operator, used to insert data into the output stream.
 4. **`>>`**: `>>` is the extraction operator, used to extract data from the input stream.
 5. **`endl`**: `endl` is used to insert a newline character and flush the output buffer.
+
+## Data Types in C++
+
+Data types are used to define the type of data that a variable can hold. They are used to define the type of data that a variable can hold. They are used to define the type of data that a variable can hold.
+
+| Data Type | Description | Size | Range |
+|-----------|-------------|------|-------|
+| `int` | Integer | 4 bytes | -2,147,483,648 to 2,147,483,647 |
+| `float` | Floating-point | 4 bytes | 3.4e-38 to 3.4e+38 |
+| `double` | Double-precision floating-point | 8 bytes | 1.7e-308 to 1.7e+308 |
+| `char` | Character | 1 byte | -128 to 127 |
+| `bool` | Boolean | 1 byte | 0 to 1 |
+| `void` | No value | 0 bytes | N/A |
+| `string` | String | Variable | N/A |
+| `long` | Long integer | 8 bytes | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
+| `short` | Short integer | 2 bytes | -32,768 to 32,767 |
+| `long long` | Long long integer | 8 bytes | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
