@@ -85,3 +85,69 @@ Data types are used to define the type of data that a variable can hold. They ar
 | `long` | Long integer | 8 bytes | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
 | `short` | Short integer | 2 bytes | -32,768 to 32,767 |
 | `long long` | Long long integer | 8 bytes | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
+
+## Operations in c++
+operations are the symbols that perform some operations on the variables.
+
+| Operation | Symbol |
+|-----------|--------|
+| Addition | + |
+| Subtraction | - |
+| Multiplication | * |
+| Division | / |
+| Modulus | % |
+| Increment | ++ |
+| Decrement | -- |
+| Assignment | = |
+| Comparison | ==, !=, <, >, <=, >= |
+| Logical | &&, ||, ! |
+| Bitwise | &, |, ^, ~, <<, >> |
+| Ternary | ? : |
+
+c++ supports various types of operators, including logical, arthmetic, relational and assignment operators.
+
+## Logical Operators in C++
+
+Logical operators are used to perform logical operations on the variables. They are used to perform logical operations on the variables. They are used to perform logical operations on the variables. They return a boolean value, i.e., true or false.
+
+| Operator | Description |
+|----------|-------------|
+| `&&` | Logical AND |
+| `||` | Logical OR |
+| `!` | Logical NOT |
+
+```cpp
+int a = 10;
+int b = 20;
+if (a > 5 && b > 15) {
+    cout << "Both conditions are true" << endl;
+}
+else if (a > 5 || b > 15) {
+    cout << "At least one condition is true" << endl;
+}
+else {
+    cout << "Neither condition is true" << endl;
+}
+```
+
+## Arithmetic Operators in C++
+
+Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication, division, and modulus.
+
+| Operator | Description |
+|----------|-------------|
+| `+` | Addition |
+| `-` | Subtraction |
+| `*` | Multiplication |
+| `/` | Division |
+| `%` | Modulus |
+
+```cpp
+int a = 10;
+int b = 20;
+cout << a + b << endl;
+cout << a - b << endl;
+cout << a * b << endl;
+cout << a / b << endl;
+cout << a % b << endl;
+```
