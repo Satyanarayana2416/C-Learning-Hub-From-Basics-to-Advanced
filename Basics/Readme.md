@@ -151,3 +151,83 @@ cout << a * b << endl;
 cout << a / b << endl;
 cout << a % b << endl;
 ```
+
+## Relational Operators in C++
+
+Relational operators are used to compare two values. They return a boolean value, i.e., true or false.
+
+| Operator | Description |
+|----------|-------------|
+| `==` | Equal to |
+| `!=` | Not equal to |
+| `<` | Less than |
+| `>` | Greater than |
+| `<=` | Less than or equal to |
+| `>=` | Greater than or equal to |
+
+```cpp
+int a = 10;
+int b = 20;
+if (a == b) {
+    cout << "a is equal to b" << endl;
+}
+else if (a != b) {
+    cout << "a is not equal to b" << endl;
+}
+else if (a < b) {
+    cout << "a is less than b" << endl;
+}
+else if (a > b) {
+    cout << "a is greater than b" << endl;
+}
+else if (a <= b) {
+    cout << "a is less than or equal to b" << endl;
+}
+else if (a >= b) {
+    cout << "a is greater than or equal to b" << endl;
+}
+```
+
+## Assignment Operators in C++
+
+Assignment operators are used to assign values to variables. They are used to assign values to variables. They are used to assign values to variables. They return the assigned value.
+
+| Operator | Description |
+|----------|-------------|
+| `=` | Assign |
+| `+=` | Add and assign |
+| `-=` | Subtract and assign |
+| `*=` | Multiply and assign |
+| `/=` | Divide and assign |
+| `%=` | Modulus and assign |
+
+```cpp
+int a = 10;
+int b = 20;
+a += b;
+cout << a << endl;
+a -= b;
+cout << a << endl;
+a *= b;
+cout << a << endl;
+a /= b;
+cout << a << endl;
+a %= b;
+cout << a << endl;
+```
+
+## Conditional Statements in C++
+
+Control statements in programming are instructions that tell the computer what to do based on certain conditions. 
+
+They allow the program to make decisions. If a condition is true, the program executes one block of code; if it’s false, it executes another block.
+
+Following are some of the decision-making statements in C++:
+
+| Statement | Description |
+|-----------|-------------|
+| `if` | If statement |
+| `else` | Else statement |
+| `else if` | Else if statement |
+| `switch` | Switch statement |
+
