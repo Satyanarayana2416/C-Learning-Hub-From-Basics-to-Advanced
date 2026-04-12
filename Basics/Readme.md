@@ -231,3 +231,65 @@ Following are some of the decision-making statements in C++:
 | `else if` | Else if statement |
 | `switch` | Switch statement |
 
+### if statement
+
+```cpp
+int a = 10;
+if (a > 5) {
+    cout << "a is greater than 5" << endl;
+}
+```
+
+### else statement
+
+```cpp
+int a = 10;
+if (a > 5) {
+    cout << "a is greater than 5" << endl;
+}
+else {
+    cout << "a is not greater than 5" << endl;
+}
+```
+
+### else if statement
+
+```cpp
+int a = 10;
+if (a > 5) {
+    cout << "a is greater than 5" << endl;
+}
+else if (a < 5) {
+    cout << "a is less than 5" << endl;
+}
+else {
+    cout << "a is equal to 5" << endl;
+}
+```
+### Nested if statement
+
+```cpp
+int a = 10;
+if (a > 5) {
+    cout << "a is greater than 5" << endl;
+    if (a > 10) {
+        cout << "a is greater than 10" << endl;
+    }
+}
+```
+
+### switch statement
+
+```cpp
+int a = 10;
+switch (a) {
+    case 10:
+        cout << "a is 10" << endl;
+        break;
+    case 20:
+        cout << "a is 20" << endl;
+        break;
+    default:
+        cout << "a is neither 10 nor 20" << endl;
+}
+```
