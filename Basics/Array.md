@@ -45,3 +45,39 @@ int arr[5] = {1,2,3,4,5};
       cout<<arr[i]<<" ";
   }
 ```
+## Multi-dimensional Array
+
+Multi-dimensional arrays are arrays that have more than one dimension. They are used to store data in a tabular format.
+
+## Syntax of Multi-dimensional Array
+
+```cpp
+int arr[rows][cols];
+```
+
+## Access Elements in 2D Array
+
+```cpp
+int arr[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
+cout<<arr[0][0];
+```
+
+## Updating Elements in 2D Array
+
+```cpp
+int arr[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
+arr[0][0] = 10;
+cout<<arr[0][0];
+```
+
+## 2D Array Traversal
+
+```cpp
+int arr[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
+for(int i=0; i<3; i++){
+    for(int j=0; j<3; j++){
+        cout<<arr[i][j]<<" ";
+    }
+    cout<<endl;
+}
+```
