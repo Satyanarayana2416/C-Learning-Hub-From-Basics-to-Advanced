@@ -7,7 +7,7 @@ They act as containers for managing and retrieving items based on their position
 ## Syntax of Array
 
 ```cpp
-int arr[5] = {1, 2, 3, 4, 5};
+int arr[size];
 ```
 
 ## Declaration of Array
