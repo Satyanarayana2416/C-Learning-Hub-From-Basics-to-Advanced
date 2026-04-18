@@ -40,3 +40,21 @@ for(int i=0; i<str.length(); i++){
     cout<<str[i]<<" ";
 }
 ```
+## String Input Having Spaces
+
+if the given user input is like this "Hello World", if we use `cin>>str;` it will only store "Hello" and ignore the rest of the string.
+
+In-order to print the full sentence we use `getline(cin,str);`
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    string str; // Declaration of string
+    getline(cin,str); // reads the entire line including spaces
+    cout<<str<<endl;
+    return 0;
+}
+```
+
