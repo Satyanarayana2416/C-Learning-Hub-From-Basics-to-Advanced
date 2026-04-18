@@ -57,4 +57,22 @@ int main(){
     return 0;
 }
 ```
+## string operations
+
+**concatenation:-**you can concatenate the string using `+` operator or `append()` method.
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    string str1 = "Hello";
+    string str2 = "World";
+    cout<<str1 + str2<<endl;
+    str1.append(str2);
+    cout<<str1<<endl;
+    return 0;
+}
+```
+
 
