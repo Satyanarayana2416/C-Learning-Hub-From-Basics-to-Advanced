@@ -59,7 +59,7 @@ int main(){
 ```
 ## string operations
 
-**concatenation:-**you can concatenate the string using `+` operator or `append()` method.
+*concatenation:-*you can concatenate the string using `+` operator or `append()` method.
 
 ```cpp
 #include <bits/stdc++.h>
