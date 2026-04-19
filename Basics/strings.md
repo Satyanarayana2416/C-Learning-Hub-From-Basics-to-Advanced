@@ -59,7 +59,8 @@ int main(){
 ```
 ## string operations
 
-*concatenation:-*you can concatenate the string using `+` operator or `append()` method.
+### concatenation:-
+you can concatenate the string using `+` operator or `append()` method.
 
 ```cpp
 #include <bits/stdc++.h>
@@ -74,7 +75,8 @@ int main(){
     return 0;
 }
 ```
-`Length of the String:-`you can find the length of the string using `.length()` or `.size()` method.
+### Length of the String:- 
+you can find the length of the string using `.length()` or `.size()` method.
 
 ```cpp
 #include <bits/stdc++.h>
