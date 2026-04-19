@@ -74,7 +74,7 @@ int main(){
     return 0;
 }
 ```
-**Length of the String:-**you can find the length of the string using `.length()` or `.size()` method.
+`Length of the String:-`you can find the length of the string using `.length()` or `.size()` method.
 
 ```cpp
 #include <bits/stdc++.h>
